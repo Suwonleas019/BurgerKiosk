@@ -1,23 +1,34 @@
 # (C# 코딩) 로그인 화면
 ## 개요
 - C# 프로그래밍 학습
-- 1줄 소개: 웹사이트에서 사용하고 로그인 화면 구현
+- 1줄 소개: 음식점에서 주로 사요하는 키오스크 구현
 - 사용한 플랫폼: 
 - C#, .NET Windows Forms, Visual Studio, GitHub
 - 사용한 컨트롤:
-- Label, TextBox,Messagebox, Button
+- CheckBox, RadioButton, Label, Button, GroupBox
+- 속성: Checked, Text, Enabled
+- 메서드: ToString(), Clear()
+- 이벤트: Click
 - 사용한 기술과 구현한 기능:
 - Visual Studio를 이용하여 UI 디자인
-- 비교,논리 연산자와 조건문을 사용하여 아이디와 페스워드의 일치 확인
-- 메세지박스를 이용한 피드백 시스템 알림
-- visible 속성을 활용해 힌트 메세지 활용
-
+- 메뉴 선택 기능: RadioButton을 활용한 단일 메뉴 선택
+- 옵션 선택 기능: CheckBox를 활용한 복수 선택 처리
+- 가격 계산 기능: 선택된 항목들의 가격을 합산
+- 이벤트 처리: 버튼 클릭 시 전체 로직 실행
+- 조건문 활용: 선택 여부에 따른 분기 처리
+- UI 업데이트: 사용자 입력에 따라 화면 즉시 반영
 ## 실행 화면 (과제1)
 - 과제1 코드의 실행 스크린샷
 
 
-![과제1 실행화면](img/1.png)
-![과제1 실행화면](img/1-2.png)
-![과제1 실행화면](img/1-3.png)
+![과제1 실행화면](img/1.1.png)
+
+
+![과제1 실행화면](img/1.2.png)
 - 과제 내용
-- 
+- 기본적인 키오스크 컨트롤 배치와 기본적인 속성 설정
+- 선택된 항목 추출 기능 구현
+- RadioButton과 CheckBox 등을 알맞은 곳에 배치
+- GroupBox로 항목 연결
+- 주문하기 버튼을 누를 시 Radiobutton에서 선택된 상품과 CheckBox에서 선택된 상품의 계산 결과가 listBox에 도출된다.
+- 초기화 버튼을 누를 시 지금까지 계산된 결과가 모두 초기화된다.

@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picHamBurger.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA44AAAIACAIAAABCWKXfAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        cwAAEnMBjCK5BwAA/7JJREFUeF7E/YV7XOe99ov3L/id397dbdqkadKQY7YlQzhp6kDDSRtOGjaI2ZYZ
+        cQAAEnEB89x6jgAA/7JJREFUeF7E/YV7XOe99ov3L/id397dbdqkadKQY7YlQzhp6kDDSRtOGjaI2ZYZ
         BGbLYmZmZhyGxUzDI5aMgbb7hXM965lZHkt29t7ved9zct2Xr5E0lhVbWvNZ93N/7+8v2vdGtO+N6NgX
         CRQZ1REZ1RkVDRQR1R0V0xsV2xcR07M3qmdPZP+eqMF9Mb17o1RFAEVE9kVG9UZF90XH9MVG98VG9yTE
         9CXF9aXGDx5OGjqaMnziYO/J1M4TqW3HDzYeS609mVp18khl+tHy9OMlp46VnDpWeupo6amjZWlHytOP
@@ -16222,10 +16222,10 @@
         gg==
 </value>
   </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picBulgogiBurger.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAoUAAAIACAIAAAB7NoHoAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        cwAAEnMBjCK5BwAA/7JJREFUeF7svQV0W2e6791pY1vMkjGcNCkzTHk6nc5MO22gITODzLbMzBCHmZmp
+        cQAAEnEB89x6jgAA/7JJREFUeF7svQV0W2e6791pY1vMkjGcNCkzTHk6nc5MO22gITODzLbMzBCHmZmp
         4cSxY7bFzJJlZogZhPtbr5SkSdo5M9+9p6e3c/ZvPUuRJVm2I23998PPQTAwMDAwMDC/Nc89ewMMDAwM
         DAzM/ziwHsPAwMDAwPz2wHoMAwMDAwPz2wPrMQwMDAwMzG8PrMcwMDAwMDC/PbAew8DAwMDA/PbAegwD
         AwMDA/PbA+sxDAwMDAzMbw+sxzAwMDAwML89sB7DwMDAwMD89sB6DAMDAwMD89sD6zEMDAwMDMxvD6zH
@@ -25668,10 +25668,10 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picChickenBurger.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAh4AAAHYCAIAAACN+HYpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        cwAAEnMBjCK5BwAA/7JJREFUeF7s/XVUHOu+94ue/+9/d9xzbex37zVnBHeXBJKQECfuSnB3d3d3dwgO
+        cQAAEnEB89x6jgAA/7JJREFUeF7s/XVUHOu+94ue/+9/d9xzbex37zVnBHeXBJKQECfuSnB3d3d3dwgO
         wd0dGpqGpt1x2t3qjmqIzbn2OXucm3fNvdZbn/GM0F1d1d2EqudbP33+NwACAgICAuKX8r/9cQMEBAQE
         BMT/f0DSAgEBAQHxi4GkBQICAgLiFwNJCwQEBATELwaSFggICAiIXwwkLRAQEBAQvxhIWiAgICAgfjGQ
         tEBAQEBA/GIgaYGAgICA+MVA0gIBAQEB8YuBpAUCAgIC4hcDSQsEBAQExC8GkhYICAgIiF8MJC0QEBAQ
