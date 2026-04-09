@@ -47,6 +47,7 @@
             btnOrder = new Button();
             lblTotalCost = new Label();
             lstOrder = new ListBox();
+            lblError = new Label();
             ((System.ComponentModel.ISupportInitialize)picHamBurger).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picBulgogiBurger).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picChickenBurger).BeginInit();
@@ -215,6 +216,7 @@
             // 
             // grbList
             // 
+            grbList.Controls.Add(lblError);
             grbList.Controls.Add(btnInit);
             grbList.Controls.Add(btnOrder);
             grbList.Controls.Add(lblTotalCost);
@@ -223,7 +225,7 @@
             grbList.ForeColor = Color.Red;
             grbList.Location = new Point(749, 104);
             grbList.Name = "grbList";
-            grbList.Size = new Size(312, 448);
+            grbList.Size = new Size(312, 482);
             grbList.TabIndex = 6;
             grbList.TabStop = false;
             grbList.Text = "주문내역";
@@ -273,6 +275,16 @@
             lstOrder.Size = new Size(267, 274);
             lstOrder.TabIndex = 0;
             // 
+            // lblError
+            // 
+            lblError.AutoSize = true;
+            lblError.Location = new Point(28, 429);
+            lblError.Name = "lblError";
+            lblError.Size = new Size(249, 35);
+            lblError.TabIndex = 4;
+            lblError.Text = "음식을 선택해주세요";
+            lblError.Visible = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
@@ -318,5 +330,6 @@
         private Button btnOrder;
         private Label lblTotalCost;
         private ListBox lstOrder;
+        private Label lblError;
     }
 }

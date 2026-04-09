@@ -19,6 +19,15 @@ namespace BurgerKiosk
         int totalCost = 0;
         private void btnOrder_Click(object sender, EventArgs e)
         {
+            
+
+            if(!rdoHamBurger.Checked && !rdoBulgogiBurger.Checked && !rdoChickenBurger.Checked && !chkPotato.Checked && !chkCola.Checked && !chkCheese.Checked && !chkSauce.Checked)
+            {
+                lblTotalCost.Text = "음식을 선택해주세요.";
+
+                return;
+            }
+
             if (rdoHamBurger.Checked)
             {
                 totalCost += 5000;
