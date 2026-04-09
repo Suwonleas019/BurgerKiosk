@@ -79,6 +79,7 @@ namespace BurgerKiosk
             
             lblTotalCost.Text = "총 금액: ";
             totalCost = 0;
+            rdoHamBurger.Focus();
         }
 
         private void Form1_Load(object sender, EventArgs e)
