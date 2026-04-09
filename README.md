@@ -56,3 +56,34 @@
   포커스가 집중되도록 함
 - 탭 순서를 변경해 햄버거->추가 메뉴-> 주문,초기화 단계로 넘어가도록 설정
 - 초기화를 한 후 다시 햄버거부터 선택할 수 있도록 focus를 햄버거로 설정
+
+## 실행 화면 (과제4)
+- 과제4 코드의 실행 스크린샷
+
+
+![과제4 실행화면](img/4.1.png)
+
+- 과제 내용
+- RadioButton과 CheckBox에서 원하는 항목을 선택하면 그 즉시 정보들이 업데이트 되도록 만들기
+- 햄버거와 사이트 매뉴의 checked 항목을 handler로 묶어서 처리
+
+이 프로젝트의 핵심인 이벤트 핸들러 통합 로직입니다.
+
+
+// 모든 컨트롤의 상태 변화를 하나의 핸들러로 묶어 관리
+EventHandler handler = (s, ev) => 
+
+{
+
+
+    if (s is RadioButton rb && !rb.Checked) return;
+    UpdateOrder(); // 실시간 UI 갱신 로직 호출
+
+};
+
+
+rdoHamBurger.CheckedChanged += handler;
+
+chkCola.CheckedChanged += handler;
+
+// ... (이벤트 연결 코드)

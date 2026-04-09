@@ -126,6 +126,7 @@
             rdoChickenBurger.TabIndex = 6;
             rdoChickenBurger.Text = "치킨버거";
             rdoChickenBurger.UseVisualStyleBackColor = true;
+            rdoChickenBurger.CheckedChanged += chkPotato_CheckedChanged;
             // 
             // rdoBulgogiBurger
             // 
@@ -138,6 +139,7 @@
             rdoBulgogiBurger.TabIndex = 5;
             rdoBulgogiBurger.Text = "불고기버거";
             rdoBulgogiBurger.UseVisualStyleBackColor = true;
+            rdoBulgogiBurger.CheckedChanged += chkPotato_CheckedChanged;
             // 
             // rdoHamBurger
             // 
@@ -151,6 +153,7 @@
             rdoHamBurger.TabStop = true;
             rdoHamBurger.Text = "햄버거";
             rdoHamBurger.UseVisualStyleBackColor = true;
+            rdoHamBurger.CheckedChanged += chkPotato_CheckedChanged;
             // 
             // grbExtraOption
             // 
@@ -172,26 +175,28 @@
             chkSauce.AutoSize = true;
             chkSauce.Font = new Font("맑은 고딕", 15F, FontStyle.Bold, GraphicsUnit.Point, 129);
             chkSauce.ForeColor = Color.Black;
-            chkSauce.Location = new Point(23, 325);
+            chkSauce.Location = new Point(23, 319);
             chkSauce.Name = "chkSauce";
             chkSauce.Size = new Size(146, 39);
             chkSauce.TabIndex = 3;
             chkSauce.TabStop = false;
             chkSauce.Text = "소스 추가";
             chkSauce.UseVisualStyleBackColor = true;
+            chkSauce.CheckedChanged += chkPotato_CheckedChanged;
             // 
             // chkCheese
             // 
             chkCheese.AutoSize = true;
             chkCheese.Font = new Font("맑은 고딕", 15F, FontStyle.Bold, GraphicsUnit.Point, 129);
             chkCheese.ForeColor = Color.Black;
-            chkCheese.Location = new Point(23, 249);
+            chkCheese.Location = new Point(23, 243);
             chkCheese.Name = "chkCheese";
             chkCheese.Size = new Size(146, 39);
             chkCheese.TabIndex = 2;
             chkCheese.TabStop = false;
             chkCheese.Text = "치즈 추가";
             chkCheese.UseVisualStyleBackColor = true;
+            chkCheese.CheckedChanged += chkPotato_CheckedChanged;
             // 
             // chkCola
             // 
@@ -205,6 +210,7 @@
             chkCola.TabStop = false;
             chkCola.Text = "콜라";
             chkCola.UseVisualStyleBackColor = true;
+            chkCola.CheckedChanged += chkPotato_CheckedChanged;
             // 
             // chkPotato
             // 
@@ -217,6 +223,7 @@
             chkPotato.TabIndex = 0;
             chkPotato.Text = "감자튀김";
             chkPotato.UseVisualStyleBackColor = true;
+            chkPotato.CheckedChanged += chkPotato_CheckedChanged;
             // 
             // grbList
             // 
@@ -301,7 +308,7 @@
             Controls.Add(grbMenu);
             Controls.Add(lblAppName);
             Name = "Form1";
-            Text = "21";
+            Text = "Burger Kiosk v1.0";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)picHamBurger).EndInit();
             ((System.ComponentModel.ISupportInitialize)picBulgogiBurger).EndInit();
